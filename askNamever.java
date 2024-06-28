@@ -23,5 +23,8 @@ class askNamever {
             }
         }
         System.out.println("Heads: " + headsCnt + ", " + "Tails: " + tailsCnt);
+        if (headsCnt > tailsCnt) {
+            System.out.println("You won");
+        } else System.out.println("You lost");
     }
 }
